@@ -1,23 +1,24 @@
-<header class="header">
-  <h1 class="title">Steve Jobs</h1>
-  <p class="description">1955-2011 </p>
-</header>
-<section class="tribute">
-  <blockquote>
-    "Design is not just what it looks like and feels like. Design is how it works"
-  </blockquote>
-  <img src="https://cdn.profoto.com/cdn/053149e/contentassets/d39349344d004f9b8963df1551f24bf4/profoto-albert-watson-steve-jobs-pinned-image-original.jpg?width=1280&quality=75&format=jpg" />
-</section>
-
-<section class="bio">
-  <h2>Biography</h2>
-  <p>
-    Steven Paul Jobs (February 24, 1955 – October 5, 2011) was an American entrepreneur, industrial designer, business
-    magnate, media proprietor, and investor. He was the co-founder, chairman, and CEO of Apple; the chairman and
-    majority shareholder of Pixar; a member of The Walt Disney Company's board of directors following its acquisition
-    of Pixar; and the founder, chairman, and CEO of NeXT. He is widely recognized as a pioneer of the personal
-    computer revolution of the 1970s and 1980s, along with his early business partner and fellow Apple co-founder
-    Steve Wozniak.
-  </p>
-  <hr />
-</section>
+<div class="container">
+  <div class="column add-bottom">
+      <div id="mainwrap">
+          <div id="nowPlay">
+              <span id="npAction">Paused...</span><span id="npTitle"></span>
+          </div>
+          <div id="audiowrap">
+              <div id="audio0">
+                  <audio id="audio1" preload controls>Your browser does not support HTML5 Audio! 😢</audio>
+              </div>
+              <div id="tracks">
+                  <a id="btnPrev">&larr;</a><a id="btnNext">&rarr;</a>
+              </div>
+          </div>
+          <div id="plwrap">
+              <ul id="plList"></ul>
+          </div>
+      </div>
+  </div>
+  <div class="column add-bottom center">
+      <p>Music by <a href="http://www.mythium.net/">Mythium</a></p>
+      <p>Download: <a href="https://archive.org/download/mythium/mythium_vbr_mp3.zip">zip</a> / <a href="https://archive.org/download/mythium/mythium_archive.torrent">torrent</a></p>
+  </div>
+</div>
