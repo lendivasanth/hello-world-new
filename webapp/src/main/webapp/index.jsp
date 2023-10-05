@@ -1,44 +1,23 @@
-<header>
-  <nav>
-    <div class="logo">
-      <img src="https://images.unsplash.com/photo-1533794318766-897f4d50cb39?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg0MDUyMDk&ixlib=rb-1.2.1&q=80">
-    </div>
-    <div class="items">
-      <a href="#" class="active">Home</a>
-      <a href="#">Service</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-      <a href="#">Blog</a>
-    </div>
-
-    <div class="other">
-      <button>Log in</button>
-    </div>
-  </nav>
+<header class="header">
+  <h1 class="title">Steve Jobs</h1>
+  <p class="description">1955-2011 </p>
 </header>
-
-<!-- Hero Section -->
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="info">
-        <p class="short-info">#Get Your 14 Days Free Trial</p>
-        <h2 class="hero-heading">Manage All Of Your Stuff Using A TGB</h2>
-        <p class="hero-sub-heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id tincidunt eifend odio viverra diam aliquet donec again.</p>
-        <div class="users">
-          <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg0MTM4Nzk&ixlib=rb-1.2.1&q=80" class="img-fluid user">
-          <img src="https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg0MTM4Nzk&ixlib=rb-1.2.1&q=80" class="img-fluid user">
-          <img src="https://images.unsplash.com/photo-1522556189639-b150ed9c4330?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg0MTM4Nzk&ixlib=rb-1.2.1&q=80" class="img-fluid user">
-          <img src="https://images.unsplash.com/photo-1534614971-6be99a7a3ffd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg0MTM4Nzk&ixlib=rb-1.2.1&q=80" class="img-fluid user">
-          <p>4M+ users</p>
-        </div>
-        <button class="learn-more">
-          Learn More</button>
-      </div>
-      <div class="hero-image">
-        <img src="https://images.unsplash.com/photo-1519326882834-04c334752f58?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTg0MDUxMzU&ixlib=rb-1.2.1&q=80" class="img-fluid">
-      </div>
-    </div>
-  </div>
+<section class="tribute">
+  <blockquote>
+    "Design is not just what it looks like and feels like. Design is how it works"
+  </blockquote>
+  <img src="https://cdn.profoto.com/cdn/053149e/contentassets/d39349344d004f9b8963df1551f24bf4/profoto-albert-watson-steve-jobs-pinned-image-original.jpg?width=1280&quality=75&format=jpg" />
 </section>
-<!-- Hero Section Ends -->
+
+<section class="bio">
+  <h2>Biography</h2>
+  <p>
+    Steven Paul Jobs (February 24, 1955 – October 5, 2011) was an American entrepreneur, industrial designer, business
+    magnate, media proprietor, and investor. He was the co-founder, chairman, and CEO of Apple; the chairman and
+    majority shareholder of Pixar; a member of The Walt Disney Company's board of directors following its acquisition
+    of Pixar; and the founder, chairman, and CEO of NeXT. He is widely recognized as a pioneer of the personal
+    computer revolution of the 1970s and 1980s, along with his early business partner and fellow Apple co-founder
+    Steve Wozniak.
+  </p>
+  <hr />
+</section>
