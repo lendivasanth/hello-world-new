@@ -1,24 +1,43 @@
-<form action="action_page.php">
-  <div class="container">
-    <h1>Lendi_college</h1>
-    <p>Please fill in this form to create an account.</p>
-    <hr>
+{% extends "layout.html" %}
 
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+{% block content %}
 
-    <label for="psw"><b>Student</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+<div class="main-container">
+    <div class="cloud-image">
+        <img src="../static/img/successCloudNew.svg" />
+    </div>
+    <div class="content">
+        <div class="tweet-container">
+            <a href="http://twitter.com/intent/tweet/?text=I%20just%20created%20a%20new%20Python%20Flask%20website%20on%20Azure%20using%20Azure%20DevOps%20Project&hashtags=AzureDevOpsProject%2CVSTS%20%40Azure%20%40VSTS">
+                <img src="../static/img/tweetThis.svg" />
+            </a>
+        </div>
+        <div class="content-body">
+            <div class="success-text">Success!</div>
+            <div class="description line-1"> Azure DevOps Project has been successfully setup</div>
+            <div class="description line-2"> Your Python Flask app is up and running on Azure</div>
+        </div>
+    </div>
+</div>
 
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-    <hr>
+<div class="row">
+    <div class="col-md-4">
+        <h2>Get started right away </h2>
+        <p>
+            Clone your code repository and start developing your application on IDE of your choice
+        </p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?linkid=862409">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Continuous Delivery</h2>
+        <p>View your CI/CD pipeline on Azure Devops and customize it as per your needs</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?linkid=862410">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Azure DevOps Project</h2>
+        <p>Learn more about all you can do with Azure DevOps project by visiting the documentation</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?linkid=862126">Learn more &raquo;</a></p>
+    </div>
+</div>
 
-    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-    <button type="submit" class="registerbtn">Register</button>
-  </div>
-
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
-  </div>
-</form>
+{% endblock %}
