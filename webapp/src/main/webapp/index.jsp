@@ -1,24 +1,59 @@
-<div class="container">
-  <div class="column add-bottom">
-      <div id="mainwrap">
-          <div id="nowPlay">
-              <span id="npAction">Paused...</span><span id="npTitle"></span>
-          </div>
-          <div id="audiowrap">
-              <div id="audio0">
-                  <audio id="audio1" preload controls>Your browser does not support HTML5 Audio! 😢</audio>
-              </div>
-              <div id="tracks">
-                  <a id="btnPrev">&larr;</a><a id="btnNext">&rarr;</a>
-              </div>
-          </div>
-          <div id="plwrap">
-              <ul id="plList"></ul>
-          </div>
-      </div>
-  </div>
-  <div class="column add-bottom center">
-      <p>Music by <a href="http://www.mythium.net/">Mythium</a></p>
-      <p>Download: <a href="https://archive.org/download/mythium/mythium_vbr_mp3.zip">zip</a> / <a href="https://archive.org/download/mythium/mythium_archive.torrent">torrent</a></p>
-  </div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>HTML Application</title>
+	<link href="css/site.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="cloud-image">
+            <img src="img/successCloudNew.svg" alt="successCloudNew" />
+        </div>
+        <div class="content">
+            <div class="tweet-container">
+            <a href="http://twitter.com/intent/tweet/?text=I%20just%20created%20a%20new%20HTML%20website%20on%20Azure%20using%20Azure%20DevOps%20Project&hashtags=AzureDevOpsProject%2CVSTS%20%40Azure%20%40VSTS">
+                <img src="img/tweetThis.svg" alt="tweetThis" />
+            </a>            
+        </div>
+            <div class="content-body">
+                <div class="success-text">Success!</div>
+                <div class="description line-1"> Azure DevOps Project has been successfully setup</div>
+                <div class="description line-2"> Your HTML app is up and running on Azure</div>
+                <div class="next-steps-container">
+                    <div class="next-steps-header">Next up</div>
+                    <div class="next-steps-body">
+                        <div class="step">
+                            <div class="step-icon">
+                                <img src="img/cloneWhite.svg" alt="cloneWhite">
+                            </div>
+                            <div class="step-text"><a href="https://go.microsoft.com/fwlink/?linkid=862409">Clone your code repository and start developing your application on IDE of your choice</a></div>
+                        </div>
+                        <div class="step">
+                            <div class="step-icon">
+                                <img src="img/deployWhite.svg" alt="deployWhite">
+                            </div>
+                            <div class="step-text"><a href="https://go.microsoft.com/fwlink/?linkid=862410">View your CI/CD pipeline on Azure Devops and customize it as per your needs</a></div>
+                        </div>
+                        <div class="step">
+                            <div class="step-icon">
+                                <img src="img/stackWhite.svg" alt="stackWhite">
+                            </div>
+                            <div class="step-text"><a href="http://portal.azure.com">View your service stack in the Azure Portal</a></div>
+                        </div>
+                        <div class="step">
+                            <div class="step-icon">
+                                <img src="img/lightbulbWhite.svg" alt="lightbulbWhite">
+                            </div>
+                            <div class="step-text"><a href="https://go.microsoft.com/fwlink/?linkid=862126">Learn more about all you can do with Azure projects by visiting the documentation</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
