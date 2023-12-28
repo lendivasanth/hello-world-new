@@ -1,46 +1,40 @@
-/* Basic Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  padding: 20px;
-  background-color: #f4f4f4;
-}
-
-.header {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.profile-img {
-  width: 150px;
-  height: auto;
-  border-radius: 50%;
-}
-
-h1 {
-  margin-top: 10px;
-}
-
-.bio, .projects {
-  margin-bottom: 20px;
-}
-
-a {
-  color: #333;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-footer {
-  text-align: center;
-  margin-top: 20px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chocolate Chip Cookies</title>
+  <link rel="stylesheet" href="recipe-styles.css">
+</head>
+<body>
+  <article>
+      <header>
+          <h1>Chocolate Chip Cookies</h1>
+          <img src="cookies.jpg" alt="Chocolate Chip Cookies" class="recipe-img">
+      </header>
+      <section class="ingredients">
+          <h2>Ingredients</h2>
+          <ul>
+              <li>1 cup softened butter</li>
+              <li>1 cup white sugar</li>
+              <li>2 cups all-purpose flour</li>
+              <!-- More ingredients -->
+          </ul>
+      </section>
+      <section class="instructions">
+          <h2>Instructions</h2>
+          <ol>
+              <li>Preheat oven to 350 degrees F (175 degrees C).</li>
+              <li>Cream together the butter, white sugar,
+                  and brown sugar until smooth.</li>
+              <li>Beat in the eggs one at a time,
+                  then stir in the vanilla.</li>
+              <!-- More steps -->
+          </ol>
+      </section>
+  </article>
+  <footer>
+      <p>Recipe by Grandma's Cookbook</p>
+  </footer>
+</body>
+</html>
