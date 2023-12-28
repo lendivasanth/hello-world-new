@@ -1,59 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="utf-8">
-	<title>HTML Application</title>
-	<link href="css/site.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name's Bio</title>
+  <link rel="stylesheet" href="styles_1.css">
 </head>
-
 <body>
-    <div class="main-container">
-        <div class="cloud-image">
-            <img src="img/successCloudNew.svg" alt="successCloudNew" />
-        </div>
-        <div class="content">
-            <div class="tweet-container">
-            <a href="http://twitter.com/intent/tweet/?text=I%20just%20created%20a%20new%20HTML%20website%20on%20Azure%20using%20Azure%20DevOps%20Project&hashtags=AzureDevOpsProject%2CVSTS%20%40Azure%20%40VSTS">
-                <img src="img/tweetThis.svg" alt="tweetThis" />
-            </a>            
-        </div>
-            <div class="content-body">
-                <div class="success-text">Success!</div>
-                <div class="description line-1"> Azure DevOps Project has been successfully setup</div>
-                <div class="description line-2"> Your HTML app is up and running on Azure</div>
-                <div class="next-steps-container">
-                    <div class="next-steps-header">Next up</div>
-                    <div class="next-steps-body">
-                        <div class="step">
-                            <div class="step-icon">
-                                <img src="img/cloneWhite.svg" alt="cloneWhite">
-                            </div>
-                            <div class="step-text"><a href="https://go.microsoft.com/fwlink/?linkid=862409">Clone your code repository and start developing your application on IDE of your choice</a></div>
-                        </div>
-                        <div class="step">
-                            <div class="step-icon">
-                                <img src="img/deployWhite.svg" alt="deployWhite">
-                            </div>
-                            <div class="step-text"><a href="https://go.microsoft.com/fwlink/?linkid=862410">View your CI/CD pipeline on Azure Devops and customize it as per your needs</a></div>
-                        </div>
-                        <div class="step">
-                            <div class="step-icon">
-                                <img src="img/stackWhite.svg" alt="stackWhite">
-                            </div>
-                            <div class="step-text"><a href="http://portal.azure.com">View your service stack in the Azure Portal</a></div>
-                        </div>
-                        <div class="step">
-                            <div class="step-icon">
-                                <img src="img/lightbulbWhite.svg" alt="lightbulbWhite">
-                            </div>
-                            <div class="step-text"><a href="https://go.microsoft.com/fwlink/?linkid=862126">Learn more about all you can do with Azure projects by visiting the documentation</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+  <header>
+      <img src="profile-picture.png" alt="Your Name" class="profile-img">
+      <h1>Your Name</h1>
+      <p>Web Developer, Programmer, and Tech Student</p>
+      <p>Follow me on social media:</p>
+      <p>
+          <a href="https://twitter.com/yourusername"
+          target="_blank">Twitter</a> |
+          <a href="https://linkedin.com/in/yourusername"
+          target="_blank">LinkedIn</a>
+      </p>
+  </header>
+  <main>
+      <section class="bio">
+          <h2>About Me</h2>
+          <p>Hello! I'm Your Name, a web developer with a passion
+              for front-end design and user experience.
+              I've been building websites for over 5 years
+                and love what I do.</p>
+          <!-- Add more paragraphs as needed -->
+      </section>
+      <section class="projects">
+          <h2>Projects</h2>
+          <ul>
+              <li><a href="#">Project One</a></li>
+              <li><a href="#">Project Two</a></li>
+              <li><a href="#">Project Three</a></li>
+              <!-- Add more list items as needed -->
+          </ul>
+      </section>
+  </main>
+  <footer>
+      <p>Contact me at <a href="mailto:your.name@example.com">your.name@example.com</a></p>
+  </footer>
 </body>
-
 </html>
