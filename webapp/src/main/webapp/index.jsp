@@ -3,38 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chocolate Chip Cookies</title>
-  <link rel="stylesheet" href="recipe-styles.css">
+  <title>Business Card</title>
+  <link rel="stylesheet" href="business-card-styles.css">
 </head>
 <body>
-  <article>
-      <header>
-          <h1>Chocolate Chip Cookies</h1>
-          <img src="cookies.jpg" alt="Chocolate Chip Cookies" class="recipe-img">
-      </header>
-      <section class="ingredients">
-          <h2>Ingredients</h2>
-          <ul>
-              <li>1 cup softened butter</li>
-              <li>1 cup white sugar</li>
-              <li>2 cups all-purpose flour</li>
-              <!-- More ingredients -->
-          </ul>
-      </section>
-      <section class="instructions">
-          <h2>Instructions</h2>
-          <ol>
-              <li>Preheat oven to 350 degrees F (175 degrees C).</li>
-              <li>Cream together the butter, white sugar,
-                  and brown sugar until smooth.</li>
-              <li>Beat in the eggs one at a time,
-                  then stir in the vanilla.</li>
-              <!-- More steps -->
-          </ol>
-      </section>
-  </article>
-  <footer>
-      <p>Recipe by Grandma's Cookbook</p>
-  </footer>
+  <div class="card-container">
+      <div class="card">
+          <img src="avatar.png" alt="Your Name" class="avatar">
+          <div class="info">
+              <h1>Your Name</h1>
+              <p>Web Developer</p>
+              <p>your.name@example.com</p>
+              <p>(123) 456-7890</p>
+              <div class="social-icons">
+                  <a href="https://twitter.com/yourname">
+                      <img src="twitter-icon.png" alt="Twitter"></a>
+                  <a href="https://linkedin.com/in/yourname">
+                      <img src="linkedin-icon.png" alt="LinkedIn"></a>
+                  <a href="https://github.com/yourname">
+                      <img src="github-icon.png" alt="GitHub"></a>
+              </div>
+          </div>
+      </div>
+  </div>
 </body>
 </html>
