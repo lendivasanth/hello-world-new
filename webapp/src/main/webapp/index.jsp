@@ -1,21 +1,27 @@
-/* Custom styles on top of Bootstrap */
-
-.header-section {
-  padding: 100px 0;
-  background: url('header-background.jpg') no-repeat center center;
-  background-size: cover;
-  color: white;
+/********** Common CSS Starts **********/  
+* {
+     margin:0px;
+     padding:0px;
 }
-
-.navbar {
-  background-color: rgba(255,255,255,0.8);
+ html, body {
+     font-family Roboto, sans-serif, arial;
+     font-size: 14px;
+     color: #242424;
 }
-
-/* Ensures that the navbar text is not transparent */
-.navbar-light .navbar-nav .nav-link {
-  color: rgba(0,0,0,0.7);
+ .container {
+     width: 1200px;
+     margin:0px auto;
 }
-
-.navbar-light .navbar-nav .nav-link:hover {
-  color: rgba(0,0,0,0.9);
+ .main-section {
+     width: 100%;
+     float: left;
+     padding:50px 0px 40px 0px;
 }
+ .heading {
+     font-size: 22px;
+     font-weight: 500;
+     border-bottom: 1px solid #ff5722;
+     margin-bottom:25px;
+     color: #ff5722;
+}
+/********** Common CSS Ends **********/
