@@ -1,39 +1,77 @@
+<!-- Html Document Begins-->
+<!DOCTYPE html>
 <html>
+     <!-- Header Section-->
 <head>
-<style>
-
-h1
-  { 
-    color:green;
- text-decoration:yellow;
-  }
-</style>
+           <meta charset="UTF-8" />
+           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>
+      Student Registration Form
+ </title>
 </head>
-<body>
-<table>
-<center>
-<h1>Student Form </h1>
-<hr/>
-<form id="form1" autocomplete="off" action="Register.java" method="GET">
-Student Name:
-<input type="text" name="t1" autofocus required />
-<br/> <br/>
-Student Age:
-<input type="number" min="20" max="100" name="t2"/>
-<br/> <br/>
-Email ID:
-<input type="email" name="t3"/>
-<br/> <br/>
-Pin code:
-<input type="text" name="t4" pattern="\d{6}"/>
-<br/> <br/>
-Join Date:
-<input type="date" name="t5" />
-<br/> <br/>
-are you agree terms and conditions?
-<input form="form1" type="checkbox" name="ck1" value="yes" /><br/><br/>
-<input type="submit" value="Register"/>
-</form><br/>
-</center>
+           
+     <!--Body of the Webpage-->
+<body bgcolor="orange">
+          
+          <!--Start of Form-->
+          <div style="margin: auto;width: 30%;">
+          <form>
+             <h2>Student Registration Form</h2>
+             <p>Fill in this form to register</p>
+             <br>
+             
+           <!--Input elemets for form-->
+             <label><b>First Name</b></label> 
+             <input type="text" placeholder="Enter your first name" name="first_name" required>
+             <br>
+             
+             <br>
+             <label><b>Last Name</b></label>
+             <input type="text" placeholder="Enter your last name" name="last_name" required>
+             <br>
+             <br>
+             <label><b>E-mail</b></label>
+             <input type="email" placeholder="Enter your e-mail" name="email" required>
+             <br>
+             <br>
+             <label><b>Date of Birth</b></label>
+             <input type="date" name="dob" required>
+             <br>
+             <br>
+             <label><b>Set Username</b></label>
+             <input type="text" placeholder="Set Username" name="username" required>
+             <br>
+             <br>
+             <label><b>Set Password</b></label>
+             <input type="password" placeholder="Set password" name="password" required>
+             <br>
+             
+             <br>
+             <label><b>Gender</b></label><br>
+             <input type="radio" name="gender" value="Male">
+             <label for="Male">Male</label><br>
+             <input type="radio" name="gender" value="Female">
+             <label for="Female">Female</label><br>
+             <input type="radio" name="gender" value="Others">
+             <label for="Others">Others</label>
+             <br>
+              
+            <br>
+            <label><b>Course :</b></label>   
+                 <select>
+                       <option value="Course">Course</option>    
+                       <option value="CS">Computer Fundamentals</option>  
+                       <option value="AI">Artificial Intelligence</option>  
+                       <option value="ML">Machine Learning</option>  
+                       <option value="OOPS">Object Oriented Programming</option>  
+                       <option value="DBMS">Database Management System</option>   
+                 </select>
+           <br>
+           <br>
+           <input type="button" value="Register"/> 
+          </form>
+     </div>
 </body>
 </html>
+<!-- Html Document Ends-->
