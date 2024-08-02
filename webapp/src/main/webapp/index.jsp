@@ -1,77 +1,32 @@
-<!-- Html Document Begins-->
 <!DOCTYPE html>
 <html>
-     <!-- Header Section-->
 <head>
-           <meta charset="UTF-8" />
-           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- <title>
-      Student Registration Form
- </title>
+    <title>My Simple Blog</title>
 </head>
-           
-     <!--Body of the Webpage-->
-<body bgcolor="orange">
-          
-          <!--Start of Form-->
-          <div style="margin: auto;width: 30%;">
-          <form>
-             <h2>Student Registration Form</h2>
-             <p>Fill in this form to register</p>
-             <br>
-             
-           <!--Input elemets for form-->
-             <label><b>First Name</b></label> 
-             <input type="text" placeholder="Enter your first name" name="first_name" required>
-             <br>
-             
-             <br>
-             <label><b>Last Name</b></label>
-             <input type="text" placeholder="Enter your last name" name="last_name" required>
-             <br>
-             <br>
-             <label><b>E-mail</b></label>
-             <input type="email" placeholder="Enter your e-mail" name="email" required>
-             <br>
-             <br>
-             <label><b>Date of Birth</b></label>
-             <input type="date" name="dob" required>
-             <br>
-             <br>
-             <label><b>Set Username</b></label>
-             <input type="text" placeholder="Set Username" name="username" required>
-             <br>
-             <br>
-             <label><b>Set Password</b></label>
-             <input type="password" placeholder="Set password" name="password" required>
-             <br>
-             
-             <br>
-             <label><b>Gender</b></label><br>
-             <input type="radio" name="gender" value="Male">
-             <label for="Male">Male</label><br>
-             <input type="radio" name="gender" value="Female">
-             <label for="Female">Female</label><br>
-             <input type="radio" name="gender" value="Others">
-             <label for="Others">Others</label>
-             <br>
-              
-            <br>
-            <label><b>Course :</b></label>   
-                 <select>
-                       <option value="Course">Course</option>    
-                       <option value="CS">Computer Fundamentals</option>  
-                       <option value="AI">Artificial Intelligence</option>  
-                       <option value="ML">Machine Learning</option>  
-                       <option value="OOPS">Object Oriented Programming</option>  
-                       <option value="DBMS">Database Management System</option>   
-                 </select>
-           <br>
-           <br>
-           <input type="button" value="Register"/> 
-          </form>
-     </div>
+<body>
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Blog Post Title</h2>
+            <p>Content of the first blog post...</p>
+        </article>
+        <article>
+            <h2>Another Blog Post</h2>
+            <p>Content of the second blog post...</p>
+        </article>
+        <!-- More articles can be added here -->
+    </main>
+    <footer>
+        <p>© 2023 My Simple Blog</p>
+    </footer>
 </body>
 </html>
-<!-- Html Document Ends-->
