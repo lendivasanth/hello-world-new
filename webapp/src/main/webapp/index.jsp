@@ -1,57 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Small Business Homepage</title>
+    <title>Simple Survey Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <h1>Our Business Name</h1>
-            <nav>
-                <ul>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <main>
+        <h1>Feedback Survey Form</h1>
+        <form id="survey-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
 
-    <section id="hero">
-        <div class="hero-content">
-            <h2>Welcome to Our Business</h2>
-            <p>Your one-stop solution for all your needs.</p>
-            <a href="#contact" class="hero-button">Get in Touch</a>
-        </div>
-    </section>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-    <section id="services">
-        <h2>Our Services</h2>
-        <p>We offer a wide range of services to help your business grow:</p>
-        <ul>
-            <li>Consulting Services</li>
-            <li>Professional Training</li>
-            <li>Marketing and Advertising Solutions</li>
-            <!-- More services can be listed here -->
-        </ul>
-    </section>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="1" max="150">
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p>We are a dedicated team with over 10 years of experience in business development and management. Our mission is to provide high-quality services tailored to each client's unique needs.</p>
-        <!-- More about the business -->
-    </section>
+            <label for="feedback-type">Type of Feedback:</label>
+            <select id="feedback-type" name="feedback-type">
+                <option value="positive">Positive</option>
+                <option value="negative">Negative</option>
+                <option value="suggestion">Suggestion</option>
+            </select>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Phone: (123) 456-7890</p>
-        <p>Email: contact@ourbusiness.com</p>
-        <!-- Additional contact details or a contact form -->
-    </section>
+            <fieldset>
+                <legend>Services Used:</legend>
+                <input type="checkbox" id="service1" name="services" value="service1">
+                <label for="service1">Service 1</label><br>
+                <input type="checkbox" id="service2" name="services" value="service2">
+                <label for="service2">Service 2</label><br>
+                <input type="checkbox" id="service3" name="services" value="service3">
+                <label for="service3">Service 3</label>
+            </fieldset>
 
-    <footer>
-        <p>© 2023 Small Business. All rights reserved.</p>
-    </footer>
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </main>
 </body>
 </html>
