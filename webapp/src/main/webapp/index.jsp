@@ -1,32 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Simple Blog</title>
+    <title>Dynamic Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>My Blog</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>Welcome to Our Service</h1>
+        <p>Discover the future of online experience.</p>
+        <button class="action-button">Learn More</button>
     </header>
-    <main>
-        <article>
-            <h2>Blog Post Title</h2>
-            <p>Content of the first blog post...</p>
-        </article>
-        <article>
-            <h2>Another Blog Post</h2>
-            <p>Content of the second blog post...</p>
-        </article>
-        <!-- More articles can be added here -->
-    </main>
+
+    <section class="features">
+        <div class="feature">
+            <h2>Feature One</h2>
+            <p>Description of Feature One.</p>
+        </div>
+        <div class="feature">
+            <h2>Feature Two</h2>
+            <p>Description of Feature Two.</p>
+        </div>
+        <!-- More features -->
+    </section>
+
     <footer>
-        <p>© 2023 My Simple Blog</p>
+        <p>© 2023 Dynamic Landing Page. All rights reserved.</p>
     </footer>
 </body>
 </html>
