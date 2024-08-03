@@ -20,7 +20,7 @@
 
     <section id="hero">
         <div class="hero-content">
-            <h2>Welcome to Our Business</h2>
+            <h2>Welcome to Our Lendi Team</h2>
             <p>Your one-stop solution for all your needs.</p>
             <a href="#contact" class="hero-button">Get in Touch</a>
         </div>
