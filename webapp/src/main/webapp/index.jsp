@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Parallax Website</title>
-    <link rel="stylesheet" href="style.css">
+    <title>My Simple Blog</title>
 </head>
 <body>
-    <div class="parallax-section" id="section1">
-        <h1>Welcome to Our Parallax Site</h1>
-    </div>
-    <div class="content-section">
-        <p>This is a regular content section. Scroll down to see the parallax effect.</p>
-    </div>
-    <div class="parallax-section" id="section2">
-        <h1>Immersive Experience</h1>
-    </div>
-    <div class="content-section">
-        <p>More content can go here. The next background will start with another scroll.</p>
-    </div>
-    <!-- Add more parallax and content sections as needed -->
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Blog Post Title</h2>
+            <p>Content of the first blog post...</p>
+        </article>
+        <article>
+            <h2>Another Blog Post</h2>
+            <p>Content of the second blog post...</p>
+        </article>
+        <!-- More articles can be added here -->
+    </main>
+    <footer>
+        <p>© 2023 My Simple Blog</p>
+    </footer>
 </body>
 </html>
