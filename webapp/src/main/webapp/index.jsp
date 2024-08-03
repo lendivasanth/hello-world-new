@@ -1,44 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Simple Survey Form</title>
+    <title>Parallax Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <h1>Feedback Survey Form</h1>
-        <form id="survey-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="age">Age:</label>
-            <input type="number" id="age" name="age" min="1" max="150">
-
-            <label for="feedback-type">Type of Feedback:</label>
-            <select id="feedback-type" name="feedback-type">
-                <option value="positive">Positive</option>
-                <option value="negative">Negative</option>
-                <option value="suggestion">Suggestion</option>
-            </select>
-
-            <fieldset>
-                <legend>Services Used:</legend>
-                <input type="checkbox" id="service1" name="services" value="service1">
-                <label for="service1">Service 1</label><br>
-                <input type="checkbox" id="service2" name="services" value="service2">
-                <label for="service2">Service 2</label><br>
-                <input type="checkbox" id="service3" name="services" value="service3">
-                <label for="service3">Service 3</label>
-            </fieldset>
-
-            <label for="comments">Additional Comments:</label>
-            <textarea id="comments" name="comments" rows="4"></textarea>
-
-            <button type="submit">Submit Feedback</button>
-        </form>
-    </main>
+    <div class="parallax-section" id="section1">
+        <h1>Welcome to Our Parallax Site</h1>
+    </div>
+    <div class="content-section">
+        <p>This is a regular content section. Scroll down to see the parallax effect.</p>
+    </div>
+    <div class="parallax-section" id="section2">
+        <h1>Immersive Experience</h1>
+    </div>
+    <div class="content-section">
+        <p>More content can go here. The next background will start with another scroll.</p>
+    </div>
+    <!-- Add more parallax and content sections as needed -->
 </body>
 </html>
